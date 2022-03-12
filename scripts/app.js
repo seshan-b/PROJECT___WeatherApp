@@ -28,6 +28,7 @@ const updateUI = (data) => {
         </div>
     
     `
+	 // Update the night / day icon images
 }
 
 const updateCity = async (city) => {
