@@ -18,3 +18,5 @@ const getWeather = async (locationId) => {
     return data[0]
 
 }
+
+// Get city information
