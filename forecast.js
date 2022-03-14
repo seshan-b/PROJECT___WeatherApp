@@ -30,3 +30,15 @@ const getCity = async (city) => {
 
 	return data[0]
 }
+
+// Testing Api
+getCity('auckland')
+.then(data => {
+    return getWeather(data.Key)
+})
+.then(data => {
+    console.log('Data from weather Api:', data)
+})
+.catch(error => console.log(error.message))
+
+
