@@ -4,3 +4,9 @@ body {
     font-size: 0.8rem;
 
 }
+
+
+.container {
+    max-width: 500px;
+}
+
