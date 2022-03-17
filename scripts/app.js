@@ -12,3 +12,9 @@ const updateUI = (data) => {
 
 
 }
+
+
+const updateCity = async (city) => {
+
+
+}
