@@ -15,6 +15,7 @@ const updateUI = (data) => {
 	// Destructuring the above object properties so that you don't have to reassign it
 	// within the scope of this variable.
 	const { cityDetails, weatherDetails } = data
+	console.log('Log destructured cityDetails object: ', cityDetails)
 }
 
 const updateCity = async (city) => {
