@@ -29,9 +29,10 @@ const updateUI = (data) => {
     
     `
 	 // Update the night / day icon images
+	 const iconSource = `images/icons/${weatherDetails.WeatherIcon}.svg`
+	 icon.setAttribute('src', iconSource)
 
 
-	 
 
 }
 
