@@ -12,6 +12,9 @@ const updateUI = (data) => {
 	// Assign variables
 	// const cityDetailsInfo = data.cityDetails
 	// const weatherDetailsInfo = data.weatherDetails
+	// Destructuring the above object properties so that you don't have to reassign it
+	// within the scope of this variable.
+	const { cityDetails, weatherDetails } = data
 }
 
 const updateCity = async (city) => {
