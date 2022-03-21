@@ -17,6 +17,17 @@ const updateUI = (data) => {
 	const { cityDetails, weatherDetails } = data
 	console.log('Log destructured cityDetails object: ', cityDetails)
 	console.log('Log destructured weatherDetails object: ', weatherDetails)
+
+	// Update details template
+	details.innerHTML = `
+        <h5 class="my-3">${cityDetails.EnglishName}</h5>
+        <div class="my-3">${weatherDetails.WeatherText}</div>
+        <div class="display-4 my-4">
+            <span>${weatherDetails.Temperature.Metric.Value}</span>
+            <span>&deg;c</span>
+        </div>
+    
+    `
 }
 
 const updateCity = async (city) => {
