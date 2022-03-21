@@ -16,6 +16,7 @@ const updateUI = (data) => {
 	// within the scope of this variable.
 	const { cityDetails, weatherDetails } = data
 	console.log('Log destructured cityDetails object: ', cityDetails)
+	console.log('Log destructured weatherDetails object: ', weatherDetails)
 }
 
 const updateCity = async (city) => {
