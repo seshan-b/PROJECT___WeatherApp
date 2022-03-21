@@ -9,22 +9,18 @@ const time = document.querySelector('img.time')
 const icon = document.querySelector('.icon img')
 
 const updateUI = (data) => {
-// Assign variables
-
+	// Assign variables
+	// const cityDetailsInfo = data.cityDetails
+	// const weatherDetailsInfo = data.weatherDetails
 }
-
 
 const updateCity = async (city) => {
-// Assign variables
-
+	// Assign variables
 }
-
 
 cityForm.addEventListener('submit', (e) => {
 	// Prevent default
 	e.preventDefault()
 
-    // Assign variables
-
-
+	// Assign variables
 })
