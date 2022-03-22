@@ -39,8 +39,11 @@ const updateUI = (data) => {
 	//     timeSource = 'images/night.svg'
 	// }
 
-	    // Convert the above to a ternary operator. 
-    // const result = condition ? 'value 1' : 'value 2'
+	// Convert the above to a ternary operator.
+	// const result = condition ? 'value 1' : 'value 2'
+	
+	let timeSource = weatherDetails.IsDayTime ? 'images/day.svg' : 'images/night.svg'
+    time.setAttribute('src', timeSource)
 }
 
 const updateCity = async (city) => {
