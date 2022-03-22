@@ -41,9 +41,14 @@ const updateUI = (data) => {
 
 	// Convert the above to a ternary operator.
 	// const result = condition ? 'value 1' : 'value 2'
-	
+
 	let timeSource = weatherDetails.IsDayTime ? 'images/day.svg' : 'images/night.svg'
     time.setAttribute('src', timeSource)
+
+		// Remove the d-none bootstrap class if present
+		if (card.classList.contains('d-none')) {
+			card.classList.remove('d-none')
+		}
 }
 
 const updateCity = async (city) => {
