@@ -38,6 +38,9 @@ const updateUI = (data) => {
 	// } else {
 	//     timeSource = 'images/night.svg'
 	// }
+
+	    // Convert the above to a ternary operator. 
+    // const result = condition ? 'value 1' : 'value 2'
 }
 
 const updateCity = async (city) => {
