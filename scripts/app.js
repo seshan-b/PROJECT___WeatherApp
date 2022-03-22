@@ -28,19 +28,16 @@ const updateUI = (data) => {
         </div>
     
     `
-	 // Update the night / day icon images
-	 const iconSource = `images/icons/${weatherDetails.WeatherIcon}.svg`
-	 icon.setAttribute('src', iconSource)
+	// Update the night / day icon images
+	const iconSource = `images/icons/${weatherDetails.WeatherIcon}.svg`
+	icon.setAttribute('src', iconSource)
 
 	// let timeSource = null
-    // if(weatherDetails.IsDayTime) {
-    //     timeSource = 'images/day.svg'
-    // } else {
-    //     timeSource = 'images/night.svg'
-    // }
-
-
-
+	// if(weatherDetails.IsDayTime) {
+	//     timeSource = 'images/day.svg'
+	// } else {
+	//     timeSource = 'images/night.svg'
+	// }
 }
 
 const updateCity = async (city) => {
