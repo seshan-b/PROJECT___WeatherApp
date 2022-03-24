@@ -54,6 +54,10 @@ const updateUI = (data) => {
 }
 
 const updateCity = async (city) => {
+	
+	// Test
+	console.log('Access city: ', city)
+
 	// Assign variables
 }
 
