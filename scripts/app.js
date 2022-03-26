@@ -57,8 +57,10 @@ const updateCity = async (city) => {
 	
 	// Test
 	console.log('Access city: ', city)
+	
 
 	// Assign variables
+	const cityDetails = await getCity(city)
 }
 
 cityForm.addEventListener('submit', (e) => {
