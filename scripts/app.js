@@ -61,6 +61,7 @@ const updateCity = async (city) => {
 
 	// Assign variables
 	const cityDetails = await getCity(city)
+	const weatherDetails = await getWeather(cityDetails.Key)
 }
 
 cityForm.addEventListener('submit', (e) => {
