@@ -78,4 +78,6 @@ cityForm.addEventListener('submit', (e) => {
 	// Assign variables
 	const city = cityForm.city.value.trim()
 	cityForm.reset()
+
+	// Update UI with new city info
 })
