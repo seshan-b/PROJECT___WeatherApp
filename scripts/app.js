@@ -78,5 +78,6 @@ cityForm.addEventListener('submit', (e) => {
 	// Prevent default
 	e.preventDefault()
 
+	
 	// Assign variables
 })
