@@ -64,6 +64,8 @@ const updateCity = async (city) => {
 	const weatherDetails = await getWeather(cityDetails.Key)
 
 	return {
+		// cityDetails: cityDetails,
+		// weatherDetails: weatherDetails
 
 	}
 }
