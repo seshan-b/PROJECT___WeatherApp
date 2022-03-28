@@ -78,6 +78,6 @@ cityForm.addEventListener('submit', (e) => {
 	// Prevent default
 	e.preventDefault()
 
-	
+
 	// Assign variables
-})
+	const city = cityForm.city.value.trim()
