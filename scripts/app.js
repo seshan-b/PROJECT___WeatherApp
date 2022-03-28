@@ -67,6 +67,8 @@ const updateCity = async (city) => {
 		// cityDetails: cityDetails,
 		// weatherDetails: weatherDetails
 
+		// Object Shorthand Notation - instead of the above
+
 	}
 }
 
