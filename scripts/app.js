@@ -54,10 +54,8 @@ const updateUI = (data) => {
 }
 
 const updateCity = async (city) => {
-	
 	// Test
 	console.log('Access city: ', city)
-	
 
 	// Assign variables
 	const cityDetails = await getCity(city)
@@ -70,7 +68,6 @@ const updateCity = async (city) => {
 		// Object Shorthand Notation - instead of the above
 		cityDetails,
 		weatherDetails,
-
 	}
 }
 
@@ -78,6 +75,7 @@ cityForm.addEventListener('submit', (e) => {
 	// Prevent default
 	e.preventDefault()
 
-
 	// Assign variables
 	const city = cityForm.city.value.trim()
+	cityForm.reset()
+})
